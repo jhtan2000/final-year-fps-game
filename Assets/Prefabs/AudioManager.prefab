@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3604154680430641457
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3604154680430641456}
+  - component: {fileID: 3604154680430641615}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3604154680430641456
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3604154680430641457}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3604154680430641615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3604154680430641457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f489ba2f2e45e224d9dbe3dc43c5f1c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMusic: 
+  musicAudio:
+  - name: MainMenu
+    clip: {fileID: 8300000, guid: df9353e237b774f79886acb76dfbad62, type: 3}
+  - name: Tutorial
+    clip: {fileID: 8300000, guid: 81e759e6833d54c15ac89e4d80555b97, type: 3}
+  - name: End
+    clip: {fileID: 8300000, guid: cbd41ab41113640c7a23fc16ae9ad212, type: 3}
+  - name: Music 1
+    clip: {fileID: 8300000, guid: 1afd1ae47c6af48c08a65b91f3a4adb4, type: 3}
+  - name: Music 2
+    clip: {fileID: 8300000, guid: 89b1cc6167f3848bb80bd62265ba8b8b, type: 3}
+  - name: Music 3
+    clip: {fileID: 8300000, guid: 7adfdcaabbd8445bd9a291fef06fc550, type: 3}
+  - name: Music 4
+    clip: {fileID: 8300000, guid: 880326a59846a4e0694215a1ed462c7e, type: 3}
+  sfxAudio:
+  - name: DoorLock
+    clip: {fileID: 8300000, guid: 0d1ba6fd58716fe45a29953202f74992, type: 3}
+  - name: DoorOpen
+    clip: {fileID: 8300000, guid: d0fe471df9f007443a2023ca7b682e72, type: 3}
+  - name: DoorUnlock
+    clip: {fileID: 8300000, guid: 53c68ee571c975445952115d791dd108, type: 3}
+  - name: Drawer
+    clip: {fileID: 8300000, guid: a40306238ec75b94fab4cabf8205c813, type: 3}
+  - name: PickUp
+    clip: {fileID: 8300000, guid: 255870fb354b1a34f8af93835625c186, type: 3}
+  - name: Key
+    clip: {fileID: 8300000, guid: baafc6322339c154782fb68efd34a479, type: 3}
+  - name: Paper
+    clip: {fileID: 8300000, guid: f903bf0f9f66ba146b835fa43b724b72, type: 3}
+  - name: Pop
+    clip: {fileID: 8300000, guid: ed18ea71ee8a8e248b1ad0b7da21095c, type: 3}
+  - name: Switch
+    clip: {fileID: 8300000, guid: d987bfe63ae58af4785a97bb027a3fd5, type: 3}
+  - name: MeleeAttack
+    clip: {fileID: 8300000, guid: c183791c5afe1314a975c44c49abed57, type: 3}
+  - name: PistolCock
+    clip: {fileID: 8300000, guid: 2bbc655bb6f893245912895472fd2033, type: 3}
+  - name: PistolFire
+    clip: {fileID: 8300000, guid: deb65a3477fa5af468b3e63ad9c00330, type: 3}
+  - name: EmptyBullet
+    clip: {fileID: 8300000, guid: 51d491de68b9d8d4f9a017d6e236c378, type: 3}
+  - name: Reload
+    clip: {fileID: 8300000, guid: 2dfa5d682a290ad4a87d80552e121448, type: 3}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 5897aeed9b676024fbb8c694b421a861, type: 3}
+  musicSource: {fileID: 0}
+  sfxSource: {fileID: 0}
